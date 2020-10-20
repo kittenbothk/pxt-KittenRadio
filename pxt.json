@@ -1,6 +1,8 @@
 {
-    "name": "tea5767",
-    "description": "",
+    "name": "TEA5767",
+    "version": "0.0.1",
+    "description": "HKKittenbot Radio",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
         "radio": "*"
