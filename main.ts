@@ -104,8 +104,10 @@ namespace TEA5767 {
     //pins.i2cWriteNumber(addr, reg, NumberFormat.UInt8BE)
     //let val = pins.i2cReadNumber(addr, NumberFormat.UInt8BE)
     let temp=pins.i2cReadBuffer(0x60,5)
-    let buf0=String(temp[0])
-    let buf1=String(temp[1])
+    //let buf0=String(temp[0])
+    let buf0=temp[0]+""
+    //let buf1=String(temp[1])
+    let buf1=temp[1]+""
     let buf01=buf0+buf1
     let freqB=parseInt(buf01,2)
     let freq= ((freqB*32768/4)-225000)/1000000
@@ -120,7 +122,8 @@ namespace TEA5767 {
     }else{
       is_stereo=true
     }
-    signal_adc_level=parseInt(String(temp[3]),2)>>4
+    let buf3=temp[3]+""
+    signal_adc_level=parseInt(buf3,2)>>4
   }
   function update() {
     let buf = pins.createBuffer(5)
