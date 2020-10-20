@@ -1,6 +1,6 @@
 /*
-KittenbotHK
-Microbit powerbrick extension board
+By Anson from KittenbotHK
+Adapting TEA5767 extension for microbit
 
 MicroPython ESP8266/ESP32 driver for TEA5767 FM radio module:
 https://github.com/alankrantas/micropython-TEA5767
@@ -10,7 +10,7 @@ https://www.sparkfun.com/datasheets/Wireless/General/TEA5767.pdf
 */
 
 
-//% color="#13c2c2" weight=10 icon="\uf0e7"
+//% color="#fcba03" weight=10 icon="\uf519"
 //% groups='["TEA5767"]'
 namespace TEA5767 {
   const range_US = [87.5, 108.0]
@@ -36,7 +36,6 @@ namespace TEA5767 {
 //% weight=60
 //% group="TEA5767"
   export function init() {
-    //oaknaso=0
     frequency = 88.1
     band = 'US'
     standby_mode = false
@@ -82,7 +81,7 @@ namespace TEA5767 {
   //% blockID=radio_search block="search|%mode|direction %dir|adc %adc"
   //% weight=60
   //% group="TEA5767"
-  export function search(mode: boolean, dir: number, adc: number) {
+  function search(mode: boolean, dir: number, adc: number) {
     search_mode = mode
     search_direction = dir
     if (adc == 10 || adc == 7 || adc == 5 || adc == 0) {
@@ -95,14 +94,14 @@ namespace TEA5767 {
   //% blockID=radio_mute block="mute|%mode"
   //% weight=60
   //% group="TEA5767"
-  export function mute(mode: boolean) {
+  function mute(mode: boolean) {
     mute_mode = mode
     update()
   }
   //% blockID=radio_standby block="standby|%mode"
   //% weight=60
   //% group="TEA5767"
-  export function standby(mode: boolean) {
+  function standby(mode: boolean) {
     standby_mode = mode
     update()
   }
