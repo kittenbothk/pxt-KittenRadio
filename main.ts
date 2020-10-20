@@ -31,7 +31,7 @@ namespace TEA5767 {
   let is_ready = false
   let is_stereo = false
   let signal_adc_level = 0
-  let buf: number[]
+  let buf = pins.createBuffer(5)
 //% blockID=radio_init block="Initialization"
 //% weight=60
 //% group="TEA5767"
