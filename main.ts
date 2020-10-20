@@ -150,7 +150,7 @@ namespace TEA5767 {
         frequency = range_JP[1]
       }
     }
-    let freqB = (frequency * 100000 + 225000) * 4 / 32768
+    let freqB = (frequency * 1000000 + 225000) * 4 / 32768
     basic.showNumber(freqB)
     let freqH = Math.abs(freqB) >> 8
     let freqL = Math.abs(freqB) & 0xFF
