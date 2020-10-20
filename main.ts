@@ -53,7 +53,7 @@ namespace TEA5767 {
     signal_adc_level = 0
     update()
   }
-  //% blockID=radio_setFreq block="set frequency|%freq"
+  //% blockID=radio_return block="return frequency|%freq"
   //% weight=60
   //% group="TEA5767"
   export function return_frequency(): number{
