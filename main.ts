@@ -31,7 +31,7 @@ namespace TEA5767 {
   let is_ready = false
   let is_stereo = false
   let signal_adc_level = 0
-  let buf = pins.createBuffer(5)
+
 //% blockID=radio_init block="Initialization"
 //% weight=60
 //% group="TEA5767"
@@ -123,7 +123,7 @@ namespace TEA5767 {
     signal_adc_level=parseInt(String(temp[3]),2)>>4
   }
   function update() {
-    buf = pins.createBuffer(5)
+    let buf = pins.createBuffer(5)
     let cmd = ''
     if (band == 'US') {
       if (frequency < range_US[0]) {
