@@ -10,7 +10,7 @@ https://www.sparkfun.com/datasheets/Wireless/General/TEA5767.pdf
 */
 
 
-//% color="#fcba03" weight=10 icon="\uf566"
+//% color="#fcba03" weight=10 icon="\uf0e7"
 //% groups='["TEA5767"]'
 namespace TEA5767 {
   const range_US = [87.5, 108.0]
