@@ -2,7 +2,9 @@
 > Open this page at [https://kittenbothk.github.io/tea57671111/](https://kittenbothk.github.io/tea57671111/)
 
 # pxt-TEA5767
-TEA5767 Radio
+
+This is an extension for Microsoft Makecode to use a TEA5767 radio module with your micro:bit.
+Developed by Anson from Kittenbot HK.
 
 ## License
 
@@ -32,4 +34,3 @@ This image may take a few minutes to refresh.
 TEA5767=github:kittenbothk/pxt-TEA5767
 ```
 
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
