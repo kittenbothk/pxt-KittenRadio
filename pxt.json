@@ -1,6 +1,6 @@
 {
     "name": "TEA5767 Radio",
-    "version": "0.0.1",
+    "version": "0.0.5",
     "description": "HKKittenbot Radio",
     "license": "MIT",
     "dependencies": {
@@ -10,7 +10,8 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "_locales/zh-tw/radio-strings.json"
     ],
     "testFiles": [
         "test.ts"
@@ -18,5 +19,6 @@
     "supportedTargets": [
         "microbit"
     ],
+    "public":true,
     "preferredEditor": "blocksprj"
 }
