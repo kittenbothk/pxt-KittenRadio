@@ -10,7 +10,7 @@ https://www.sparkfun.com/datasheets/Wireless/General/TEA5767.pdf
 */
 
 
-//% color="#fcba03" weight=10 icon="\uf0e7"
+//% color="#fcba03" weight=10 icon="\uf2ce"
 //% groups='["TEA5767"]'
 namespace TEA5767 {
   const range_US = [87.5, 108.0]
@@ -57,7 +57,7 @@ namespace TEA5767 {
   /**
      * Get current frequency
   */
-  //% blockID=radio_return block="return frequency|%freq"
+  //% blockID=radio_return block="Get frequency|%freq"
   //% weight=60
   //% group="TEA5767"
   export function return_frequency(): number{
@@ -67,7 +67,7 @@ namespace TEA5767 {
   /**
      * Set frequency
   */
-  //% blockID=radio_setFreq block="set frequency|%freq"
+  //% blockID=radio_setFreq block="Set frequency|%freq"
   //% weight=60
   //% group="TEA5767"
   export function set_frequency(freq: number) {
@@ -77,7 +77,7 @@ namespace TEA5767 {
   /**
      * Change frequency
   */
-  //% blockID=radio_changeFreq block="change frequency|%change"
+  //% blockID=radio_changeFreq block="Change frequency|%change"
   //% weight=60
   //% group="TEA5767"
   export function change_frequency(change: number) {
