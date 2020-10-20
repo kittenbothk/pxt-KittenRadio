@@ -56,6 +56,13 @@ namespace TEA5767 {
   //% blockID=radio_setFreq block="set frequency|%freq"
   //% weight=60
   //% group="TEA5767"
+  export function return_frequency(): number{
+    update()
+    return frequency
+  }
+  //% blockID=radio_setFreq block="set frequency|%freq"
+  //% weight=60
+  //% group="TEA5767"
   export function set_frequency(freq: number) {
     frequency = freq
     update()
@@ -112,6 +119,7 @@ namespace TEA5767 {
     let freqB=parseInt(buf01,2)
     let freq= ((freqB*32768/4)-225000)/1000000
     freq=Math.round(freq*10)/10
+    frequency=freq
     if(parseInt(buf0,2)>>7==1){
       is_ready=false
     }else{
