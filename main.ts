@@ -81,7 +81,8 @@ namespace TEA5767 {
   //% blockID=radio_search block="search|%mode|direction %dir|adc %adc"
   //% weight=60
   //% group="TEA5767"
-  function search(mode: boolean, dir: number, adc: number) {
+  //% advanced=true
+  export function search(mode: boolean, dir: number, adc: number) {
     search_mode = mode
     search_direction = dir
     if (adc == 10 || adc == 7 || adc == 5 || adc == 0) {
@@ -94,6 +95,7 @@ namespace TEA5767 {
   //% blockID=radio_mute block="mute|%mode"
   //% weight=60
   //% group="TEA5767"
+  //% advanced=true
   function mute(mode: boolean) {
     mute_mode = mode
     update()
@@ -101,6 +103,7 @@ namespace TEA5767 {
   //% blockID=radio_standby block="standby|%mode"
   //% weight=60
   //% group="TEA5767"
+  //% advanced=true
   function standby(mode: boolean) {
     standby_mode = mode
     update()
