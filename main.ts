@@ -107,7 +107,7 @@ namespace TEA5767 {
   //% weight=60
   //% group="TEA5767"
   //% advanced=true
-  function mute(mode: boolean) {
+  export function mute(mode: boolean) {
     mute_mode = mode
     update()
   }
@@ -115,7 +115,7 @@ namespace TEA5767 {
   //% weight=60
   //% group="TEA5767"
   //% advanced=true
-  function standby(mode: boolean) {
+  export function standby(mode: boolean) {
     standby_mode = mode
     update()
   }
