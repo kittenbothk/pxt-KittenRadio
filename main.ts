@@ -29,7 +29,7 @@ namespace TEA5767 {
   let noise_cancel = true
   let high_cut_mode = true
   let is_ready = false
-  let is_stereo = false
+  let is_stereo = true
   let signal_adc_level = 0
 
 //% blockID=radio_init block="Initialization"
@@ -49,7 +49,7 @@ namespace TEA5767 {
     noise_cancel = true
     high_cut_mode = true
     is_ready = false
-    is_stereo = false
+    is_stereo = true
     signal_adc_level = 0
     update()
   }
