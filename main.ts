@@ -151,7 +151,7 @@ namespace TEA5767 {
       }
     }
     let freqB = (frequency * 100000 + 225000) * 4 / 32768
-    basic.showNumber(frequency)
+    basic.showNumber(freqB)
     let freqH = Math.abs(freqB) >> 8
     let freqL = Math.abs(freqB) & 0xFF
     if (mute_mode) {
