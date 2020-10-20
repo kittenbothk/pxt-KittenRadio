@@ -51,7 +51,6 @@ namespace TEA5767 {
     is_ready = false
     is_stereo = false
     signal_adc_level = 0
-    buf
     update()
   }
   //% blockID=radio_setFreq block="set frequency|%freq"
