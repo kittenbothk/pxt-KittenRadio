@@ -33,7 +33,7 @@ namespace TEA5767 {
   let signal_adc_level = 0
 
 //% blockID=radio_init block="Initialization"
-//% weight=60
+//% weight=100
 //% group="TEA5767"
   export function init() {
     frequency = 88.1
