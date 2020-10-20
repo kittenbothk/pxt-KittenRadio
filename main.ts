@@ -31,12 +31,14 @@ namespace TEA5767 {
   let is_ready = false
   let is_stereo = true
   let signal_adc_level = 0
-
-//% blockID=radio_init block="Initialization"
+/**
+     * Initialize Radio
+*/
+//% blockID=radio_init block="Initialization |%number"
 //% weight=100
 //% group="TEA5767"
-  export function init() {
-    frequency = 88.1
+  export function init(freq: number) {
+    frequency = freq
     band = 'US'
     standby_mode = false
     mute_mode = false
@@ -52,6 +54,9 @@ namespace TEA5767 {
     signal_adc_level = 0
     update()
   }
+  /**
+     * Get current frequency
+  */
   //% blockID=radio_return block="return frequency|%freq"
   //% weight=60
   //% group="TEA5767"
@@ -59,6 +64,9 @@ namespace TEA5767 {
     update()
     return frequency
   }
+  /**
+     * Set frequency
+  */
   //% blockID=radio_setFreq block="set frequency|%freq"
   //% weight=60
   //% group="TEA5767"
@@ -66,6 +74,9 @@ namespace TEA5767 {
     frequency = freq
     update()
   }
+  /**
+     * Change frequency
+  */
   //% blockID=radio_changeFreq block="change frequency|%change"
   //% weight=60
   //% group="TEA5767"
