@@ -1,0 +1,12 @@
+{
+  "TEA5767.change_frequency|block": "更改頻道|%change",
+  "TEA5767.init|block": "收音機初始化",
+  "TEA5767.mute|block": "靜音|%mode",
+  "TEA5767.return_frequency|block": "現時頻道|%freq",
+  "TEA5767.search|block": "搜尋|%mode|方向 %dir|adc %adc",
+  "TEA5767.set_frequency|block": "設定頻道|%freq",
+  "TEA5767.standby|block": "待機|%mode",
+  "TEA5767|block": "TEA5767",
+  "{id:category}TEA5767": "TEA5767",
+  "{id:group}TEA5767": "TEA5767"
+}
