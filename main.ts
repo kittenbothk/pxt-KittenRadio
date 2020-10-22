@@ -34,11 +34,11 @@ namespace TEA5767 {
 /**
      * Initialize Radio
 */
-//% blockID=radio_init block="Initialization |%number"
+//% blockID=radio_init block="Initialization"
 //% weight=100
 //% group="TEA5767"
-  export function init(freq: number) {
-    frequency = freq
+  export function init() {
+    frequency = 88.1
     band = 'US'
     standby_mode = false
     mute_mode = false
