@@ -1,5 +1,5 @@
 {
-  "TEA5767 Radio.init|block":"收音機初始化 |%number",
+  "TEA5767 Radio.init|block":"收音機初始化",
   "TEA5767 Radio.return_frequency|block":"現時頻道 |%freq",
   "TEA5767 Radio.set_frequency|block":"設定頻道 |%freq",
   "TEA5767 Radio.change_frequency|block":"更改頻道 |%change"
