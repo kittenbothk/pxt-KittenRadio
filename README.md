@@ -21,6 +21,7 @@ This repository can be added as an **extension** in MakeCode.
 #### Metadata (used for search, rendering)
 
 * for PXT/microbit
+* for PXT/meowbit
 
 ```package
 TEA5767=github:kittenbothk/pxt-TEA5767
