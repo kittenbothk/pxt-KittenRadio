@@ -11,8 +11,8 @@ https://www.sparkfun.com/datasheets/Wireless/General/TEA5767.pdf
 
 
 //% color="#fcba03" weight=10 icon="\uf2ce"
-//% groups='["TEA5767"]'
-namespace TEA5767 {
+//% groups='["KittenRadio"]'
+namespace KittenRadio {
   const range_US = [87.5, 108.0]
   const range_JP = [76.0, 91.0]
 
