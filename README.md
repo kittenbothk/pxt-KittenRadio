@@ -1,4 +1,4 @@
-# pxt-KitttenRadio
+# pxt-KittenRadio
 
 This is an extension for Microsoft Makecode to use a radio module with your micro:bit.
 Developed by Anson from Kittenbot HK.
