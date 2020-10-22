@@ -1,6 +1,6 @@
-# pxt-TEA5767
+# pxt-KitttenRadio
 
-This is an extension for Microsoft Makecode to use a TEA5767 radio module with your micro:bit.
+This is an extension for Microsoft Makecode to use a radio module with your micro:bit.
 Developed by Anson from Kittenbot HK.
 
 ![](tea5767.jpg)
