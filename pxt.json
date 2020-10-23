@@ -11,7 +11,7 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "_locales/zh-TW/TEA5767_Radio-strings.json"，
+        "_locales/zh-TW/TEA5767_Radio-strings.json",
         "_locales/zh-CN/TEA5767_Radio-strings.json"
     ],
     "testFiles": [
