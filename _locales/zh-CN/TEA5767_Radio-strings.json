@@ -1,0 +1,12 @@
+{
+  "KittenRadio.change_frequency|block": "更改频道|%change",
+  "KittenRadio.init|block": "收音机初始化",
+  "KittenRadio.mute|block": "静音|%mode",
+  "KittenRadio.return_frequency|block": "现时频道|%freq",
+  "KittenRadio.search|block": "搜寻|%mode|方向 %dir|adc %adc",
+  "KittenRadio.set_frequency|block": "设定频道|%freq",
+  "KittenRadio.standby|block": "待机|%mode",
+  "KittenRadio|block": "KittenRadio",
+  "{id:category}KittenRadio": "KittenRadio",
+  "{id:group}KittenRadio": "KittenRadio"
+}
