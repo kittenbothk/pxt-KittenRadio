@@ -1,6 +1,6 @@
 {
     "name": "KittenRadio",
-    "version": "0.1.0",
+    "version": "0.1.3",
     "description": "HKKittenbot Radio",
     "license": "MIT",
     "dependencies": {
@@ -11,8 +11,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "_locales/zh-TW/TEA5767_Radio-strings.json",
-        "_locales/zh-CN/TEA5767_Radio-strings.json"
+        "_locales/zh-TW/KittenRadio-strings.json",
+        "_locales/zh-CN/KittenRadio-strings.json"
     ],
     "testFiles": [
         "test.ts"
