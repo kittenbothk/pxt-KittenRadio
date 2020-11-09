@@ -58,9 +58,9 @@ namespace KittenRadio {
   /**
      * Get current frequency
   */
-  //% blockID=radio_return block="Get frequency|%freq"
-  //% weight=60
-  //% group="TEA5767"
+  // blockID=radio_return block="Get frequency|%freq"
+  // weight=60
+  // group="TEA5767"
  //export function return_frequency(): number{
  //  update()
  //  return frequency
