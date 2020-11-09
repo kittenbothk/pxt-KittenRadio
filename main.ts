@@ -55,6 +55,7 @@ namespace KittenRadio {
     update()
   }
   /**
+  /**
      * Get current frequency
   */
   //% blockID=radio_return block="Get frequency|%freq"
@@ -64,6 +65,7 @@ namespace KittenRadio {
     update()
     return frequency
   }
+  */
   /**
      * Set frequency
   */
