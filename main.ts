@@ -54,18 +54,18 @@ namespace KittenRadio {
     signal_adc_level = 0
     update()
   }
-  /**
+  
   /**
      * Get current frequency
   */
   //% blockID=radio_return block="Get frequency|%freq"
   //% weight=60
   //% group="TEA5767"
-  export function return_frequency(): number{
-    update()
-    return frequency
-  }
-  */
+ //export function return_frequency(): number{
+ //  update()
+ //  return frequency
+ //}
+  
   /**
      * Set frequency
   */
