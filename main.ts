@@ -50,7 +50,7 @@ namespace KittenRadio {
     noise_cancel = true
     high_cut_mode = true
     is_ready = false
-    is_stereo = true
+    is_stereo = false
     signal_adc_level = 0
     update()
   }
