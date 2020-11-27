@@ -29,7 +29,7 @@ namespace KittenRadio {
   let noise_cancel = true
   let high_cut_mode = true
   let is_ready = false
-  let is_stereo = true
+  let is_stereo = false
   let signal_adc_level = 0
 /**
      * Initialize Radio
