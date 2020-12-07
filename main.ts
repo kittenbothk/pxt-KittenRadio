@@ -82,6 +82,7 @@ namespace KittenRadio {
   //% blockID=radio_changeFreq block="Change frequency|%change"
   //% weight=60
   //% group="TEA5767"
+  /*
   export function change_frequency(change: number) {
     frequency += change
     if (change >= 0) {
@@ -91,6 +92,7 @@ namespace KittenRadio {
     }
     update()
   }
+  */
   //% blockID=radio_search block="search|%mode|direction %dir|adc %adc"
   //% weight=60
   //% group="TEA5767"
@@ -116,7 +118,6 @@ namespace KittenRadio {
   //% blockID=radio_standby block="standby|%mode"
   //% weight=60
   //% group="TEA5767"
-  //% advanced=true
   export function standby(mode: boolean) {
     standby_mode = mode
     update()
