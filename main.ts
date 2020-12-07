@@ -82,19 +82,19 @@ namespace KittenRadio {
   //% blockID=radio_changeFreq block="Change frequency|%change"
   //% weight=60
   //% group="TEA5767"
- /*
+
   export function change_frequency(change: number) {
-    frequency += change
-   
+    frequency = frequency+change
+   /*
     if (change >= 0) {
       search_direction = 1
     } else {
       search_direction = 0
     }
-    
+    */
     update()
   }
-  */
+
 
   //% blockID=radio_search block="search|%mode|direction %dir|adc %adc"
   //% weight=60
