@@ -61,11 +61,12 @@ namespace KittenRadio {
   // blockID=radio_return block="Get frequency|%freq"
   // weight=60
   // group="TEA5767"
+  /*
  export function return_frequency(): number{
  //  update()
  return frequency
 }
-  
+  */
   /**
      * Set frequency
   */
@@ -82,7 +83,7 @@ namespace KittenRadio {
   //% blockID=radio_changeFreq block="Change frequency|%change"
   //% weight=60
   //% group="TEA5767"
-
+/*
   export function change_frequency(change: number) {
     frequency = frequency+change
    /*
@@ -92,9 +93,9 @@ namespace KittenRadio {
       search_direction = 0
     }
     */
-    update()
+    //update()
   }
-
+*/
 
   //% blockID=radio_search block="search|%mode|direction %dir|adc %adc"
   //% weight=60
